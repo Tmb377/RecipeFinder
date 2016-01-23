@@ -1,0 +1,44 @@
+<div id="recid">{{name}}</div>
+<div class="row">
+	<div class="allLinks">
+		<a href="/home">Home</a>
+		<a href="/search">Search</a>
+		<a href="/favorites">Favorites</a>
+		<a href="/list">Grocery List</a>
+	</div>
+</div>
+
+<div id="recNameBox"><h2 id="recName"></h2></div>
+
+<div id="allInfo">
+	<div class="row">
+
+	<div id="info" class="col-md-4">
+		<img id="recimg"></img>
+		<form id="favForm" method="POST" action="/fav/add">
+			<input type="hidden" value="{{name}}" name="recipeID">
+			<input type="submit" class="btn btn-success"name="favoriteButton" value="Add to Favorites!">
+		</form>
+		
+	</div>
+
+	<div id="recipeBody" class="col-md-8">
+
+		<form id='ingredientList' method="POST" action="">
+			
+		</form>
+		
+
+	</div>
+
+	</div>
+	<div class="row">
+		<div id="outlink" class="col-md-6"></div>
+		<div id="source" class="col-md-6"></div>
+	</div>
+
+</div>
+
+
+
+<script src="/javascripts/minrecipePage.js"></script>

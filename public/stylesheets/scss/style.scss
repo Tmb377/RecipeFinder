@@ -1,0 +1,317 @@
+$fonts: 'Helvetica Neue', Helvetica;
+$main-name-color: #000000;
+$accent-background-color: #EB7F00;
+$rounded-corners: 25px;
+$blue-accent: #1695A3;
+$shadow: 10px 10px #F3FFE2;
+$alink-color: #EB7F00;
+$h-color:#ACF0F2;
+$hover-color: #524656;
+
+a {
+  color: $alink-color;
+}
+
+body {
+  padding: 50px;
+  font: 18px $fonts;
+  background-color: #225378;
+  
+}
+
+
+h1, h2, h3 {
+	color: $h-color;
+	font: $fonts;
+	text-align: center;
+}
+
+h1{
+	font-size: 3em;
+
+}
+
+.allLinks{
+	text-align: center;
+	margin-bottom: 2%;
+	font-weight: bold;
+	font-size: 1.5em;
+
+	a:hover{
+		color:$h-color;
+	}
+}
+.body{
+	background-color: #225378;
+}
+
+.form{
+	background-color: $accent-background-color;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	height: 200px;
+	border-radius: $rounded-corners;
+	box-shadow: $shadow;
+	input{
+		display: block;
+		margin:auto;
+	}
+	p{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		text-align: center;
+	}
+	.button{
+		margin-top:1em;
+
+	}
+	h2{
+		text-align: center;
+		color: $h-color;
+	}
+	
+}
+
+.signuplink{
+	text-align: center;
+	color: $blue-accent;
+	display: block;
+	margin-top: 1em;
+	font-weight: bold;
+}
+.blogLink{
+	font-size: 1.5em;
+}
+.option{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin: 10px;
+	a:hover{
+		color:$blue-accent;
+	}
+}
+
+
+.logout{
+	text-align: center;
+	margin-top: 3em;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.recipeDiv{
+	font-size: 1.5em;
+	font-weight: bold;
+	height: 20%;
+	border: solid #225378;
+	
+	border-radius: $rounded-corners;
+	background-color: $h-color;
+	img{
+		border-radius: $rounded-corners;
+	}
+}
+
+
+.ingredientLine{
+	text-align: left;
+	font-size: 1em;
+	font-family: "Verdanad";
+	font-weight: bold;
+	color:$h-color;
+
+}
+.subButton{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2px;
+}
+
+.largeImage{
+	width: 360;
+	height: 240;
+}
+.mediumImage{
+	width: 180;
+	height: 120;
+}
+.smallImage{
+	width: 90;
+	height: 60;
+}
+
+#allInfo{
+	margin-top: 10px;
+}
+#outlink{
+	font-weight: bold;
+}
+
+#allOptions{
+	border-radius: $rounded-corners;
+	background-color: $h-color;
+	border-style:solid;
+	border-color:$blue-accent;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#delete{
+	text-align: center;
+	margin-left: 10%;
+	margin-bottom: 10px;
+}
+#groceryList{
+	background-color: $h-color;
+	border-style:solid;
+	border-width: 10px;
+	border-color:#E4DCCB;
+	border-radius: $rounded-corners;
+	.listName{
+		color:$alink-color;
+		margin-left: 2%;
+		text-align: left;
+		font-family: $fonts;
+		font-weight: bold;
+	}
+	li{
+		margin-left: 5%;
+		font-weight: bold;
+	}
+}
+#favorites{
+	border-radius: $rounded-corners;
+	width:50%;
+	margin-left: auto;
+	margin-right:auto;
+	background-color: $h-color;
+	border-style:solid;
+	boder-color:$blue-accent;
+	box-shadow: $shadow;
+	font-weight: bold;
+	.favoriteDiv{
+		margin: 10px;
+		text-align: center;
+		font-size: 1.2em;
+		font-weight: bold;
+
+		a:hover{
+			color:$alink-color;
+		}
+		
+	}
+}
+#info{
+	
+	text-align: center;
+	a{
+		margin: 10px;
+	}
+}
+
+#mainTitle{
+	border-style: solid;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: $blue-accent;
+	color:black;
+	width: 40%;
+	border-radius: $rounded-corners;
+	
+}
+#recid{
+	visibility:hidden;
+}
+#recName{
+	color:$accent-background-color;
+	font-size: 2.5em;
+}
+#recNameBox{
+	background-color: $h-color;
+	border-style:solid;
+	border-width: 10px;
+	border-color:#E4DCCB;
+	border-radius: $rounded-corners;
+	width:80%;
+	height: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#recipeBody{
+	
+	background-color: #1695A3;
+	border-style:solid;
+	border-width: 10px;
+	border-color:#E4DCCB;
+	border-radius: $rounded-corners;
+	li{
+		color:$alink-color;
+	}
+}
+
+#recipes{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#recimg{
+	display: flex;
+	float:left;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+	margin-top: 2%;
+	border-radius: $rounded-corners;
+	
+}
+
+#outp{
+	margin-top: 2%;
+	position: relative;
+	bottom: 0px;
+	text-align: right;
+	font-size: 1.1em;
+	font-weight: bold;
+	bottom: 10px;
+	
+}
+#outlink{
+	margin-top: 10px;
+	a:hover{
+		color:$h-color;
+	}
+}
+
+#footer{
+	
+	text-align: center;
+	font-size: .8em;
+	margin-top: 10px;
+
+	img{
+		border-radius: $rounded-corners;
+	}
+}
+#source{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	a:hover{
+		color:$h-color;
+	}
+	color:$h-color;
+}
+#searchDiv{
+	margin: auto;
+}
+#searchRecipes{
+	text-align: center;
+	
+
+}
+
+
+
+

@@ -1,0 +1,23 @@
+<h2>Grocery List</h2>
+<div class="allLinks">
+	<a href="/home">Home</a>
+	<a href="/search">Search</a>
+	<a href="/favorites">Favorites</a>
+	<a href="/list">Grocery List</a>
+</div>
+
+<div id="groceryList">
+	<form method='POST' action=''>
+	{{#each recipe}}
+	<p class="listName"><input type='checkbox' name='listCheck' value="{{name}}">{{name}}</p>
+		<div class="checkList">
+			{{#each ingredients}}
+			<ul>
+				<li>{{this}}</li>
+			</ul>
+			{{/each}}
+		</div>
+	{{/each}}
+		<input id="delete" class="btn"type='submit' value='Remove Checked From List'>
+	</form>
+</div>

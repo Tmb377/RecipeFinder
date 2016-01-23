@@ -1,0 +1,250 @@
+a {
+  color: #EB7F00; }
+
+body {
+  padding: 50px;
+  font: 18px "Helvetica Neue", Helvetica;
+  background-color: #225378; }
+
+h1, h2, h3 {
+  color: #ACF0F2;
+  font: "Helvetica Neue", Helvetica;
+  text-align: center; }
+
+h1 {
+  font-size: 3em; }
+
+.allLinks {
+  text-align: center;
+  margin-bottom: 2%;
+  font-weight: bold;
+  font-size: 1.5em; }
+  .allLinks a:hover {
+    color: #ACF0F2; }
+
+.body {
+  background-color: #225378; }
+
+.form {
+  background-color: #EB7F00;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: 200px;
+  border-radius: 25px;
+  box-shadow: 10px 10px #F3FFE2; }
+  .form input {
+    display: block;
+    margin: auto; }
+  .form p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center; }
+  .form .button {
+    margin-top: 1em; }
+  .form h2 {
+    text-align: center;
+    color: #ACF0F2; }
+
+.signuplink {
+  text-align: center;
+  color: #1695A3;
+  display: block;
+  margin-top: 1em;
+  font-weight: bold; }
+
+.blogLink {
+  font-size: 1.5em; }
+
+.option {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 10px; }
+  .option a:hover {
+    color: #1695A3; }
+
+.logout {
+  text-align: center;
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto; }
+
+.recipeDiv {
+  font-size: 1.5em;
+  font-weight: bold;
+  height: 20%;
+  border: solid #225378;
+  border-radius: 25px;
+  background-color: #ACF0F2; }
+  .recipeDiv img {
+    border-radius: 25px; }
+
+.ingredientLine {
+  text-align: left;
+  font-size: 1em;
+  font-family: "Verdanad";
+  font-weight: bold;
+  color: #ACF0F2; }
+
+.subButton {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 2px; }
+
+.largeImage {
+  width: 360;
+  height: 240; }
+
+.mediumImage {
+  width: 180;
+  height: 120; }
+
+.smallImage {
+  width: 90;
+  height: 60; }
+
+#allInfo {
+  margin-top: 10px; }
+
+#outlink {
+  font-weight: bold; }
+
+#allOptions {
+  border-radius: 25px;
+  background-color: #ACF0F2;
+  border-style: solid;
+  border-color: #1695A3;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto; }
+
+#delete {
+  text-align: center;
+  margin-left: 10%;
+  margin-bottom: 10px; }
+
+#groceryList {
+  background-color: #ACF0F2;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #E4DCCB;
+  border-radius: 25px; }
+  #groceryList .listName {
+    color: #EB7F00;
+    margin-left: 2%;
+    text-align: left;
+    font-family: "Helvetica Neue", Helvetica;
+    font-weight: bold; }
+  #groceryList li {
+    margin-left: 5%;
+    font-weight: bold; }
+
+#favorites {
+  border-radius: 25px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ACF0F2;
+  border-style: solid;
+  boder-color: #1695A3;
+  box-shadow: 10px 10px #F3FFE2;
+  font-weight: bold; }
+  #favorites .favoriteDiv {
+    margin: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold; }
+    #favorites .favoriteDiv a:hover {
+      color: #EB7F00; }
+
+#info {
+  text-align: center; }
+  #info a {
+    margin: 10px; }
+
+#mainTitle {
+  border-style: solid;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #1695A3;
+  color: black;
+  width: 40%;
+  border-radius: 25px; }
+
+#recid {
+  visibility: hidden; }
+
+#recName {
+  color: #EB7F00;
+  font-size: 2.5em; }
+
+#recNameBox {
+  background-color: #ACF0F2;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #E4DCCB;
+  border-radius: 25px;
+  width: 80%;
+  height: 5%;
+  margin-left: auto;
+  margin-right: auto; }
+
+#recipeBody {
+  background-color: #1695A3;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #E4DCCB;
+  border-radius: 25px; }
+  #recipeBody li {
+    color: #EB7F00; }
+
+#recipes {
+  margin-right: auto;
+  margin-left: auto; }
+
+#recimg {
+  display: flex;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  margin-top: 2%;
+  border-radius: 25px; }
+
+#outp {
+  margin-top: 2%;
+  position: relative;
+  bottom: 0px;
+  text-align: right;
+  font-size: 1.1em;
+  font-weight: bold;
+  bottom: 10px; }
+
+#outlink {
+  margin-top: 10px; }
+  #outlink a:hover {
+    color: #ACF0F2; }
+
+#footer {
+  text-align: center;
+  font-size: .8em;
+  margin-top: 10px; }
+  #footer img {
+    border-radius: 25px; }
+
+#source {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #ACF0F2; }
+  #source a:hover {
+    color: #ACF0F2; }
+
+#searchDiv {
+  margin: auto; }
+
+#searchRecipes {
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

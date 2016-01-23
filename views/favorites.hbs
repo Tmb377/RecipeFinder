@@ -1,0 +1,14 @@
+<h2>Favorites</h2>
+<div class="allLinks">
+	<a href="/home">Home</a>
+	<a href="/search">Search</a>
+	<a href="/favorites">Favorites</a>
+	<a href="/list">Grocery List</a>
+</div>
+
+	<div id="favorites">
+	{{#each favorite}}
+		<div class="favoriteDiv">
+			<a href="/fav/{{url}}">{{name}}</a>
+		</div>
+	{{/each}}
